@@ -1,23 +1,22 @@
-import './App.css';
-import logo from './logo.svg';
+import styles from './App.module.scss';
 
 export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <nav>Logo /Featches/ /Priscing/ /chatlollge/ Log in Singuop </nav>{' '}
       </header>
-    </div>
+      <main>
+        Mainpage
+        <section>firstpage</section>
+        <section>secontpage</section>
+        <section>therd page</section>
+        <section>Forth page</section>
+        <section>sixth page</section>
+        <section>seven page</section>
+        <section>eth page</section>
+      </main>
+      <footer> bottom </footer>
+    </>
   );
 }
