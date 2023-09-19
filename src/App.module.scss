@@ -1,3 +1,63 @@
+* {
+  background-color: rgb(230, 255, 142);
+}
+
 main {
-  background-color: rgb(206, 139, 127);
+  background-color: rgb(230, 255, 142);
+  align-self: center;
+  align-items: center;
+  padding: 64px;
+}
+
+p {
+  text-align: center;
+  text-decoration-style: dotted;
+}
+.fitstTile {
+  font-size: 60 px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+div.sold {
+  text-align: center;
+}
+div.sold-title {
+  font-weight: bold;
+}
+
+.mail {
+  border-radius: 50%;
+}
+
+input {
+  background-color: aliceblue;
+  width: 180px;
+  height: 40px;
+  margin-left: 45%;
+  margin-right: 45%;
+  border-radius: 15% 0 0 15%;
+}
+
+button {
+  background-color: rgb(255, 94, 0);
+  color: rgb(39, 36, 29);
+  width: 187px;
+  height: 40px;
+  margin-left: 45%;
+  margin-right: 45%;
+  border-radius: 0 15% 15% 0;
 }
