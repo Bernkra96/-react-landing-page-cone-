@@ -582,7 +582,6 @@ export default function App() {
         </div>
         <h3>Supported by Mr Duke - Read the behind the scenes Blog.</h3>
       </main>
-      <footer> bottom </footer>
     </>
   );
 }
